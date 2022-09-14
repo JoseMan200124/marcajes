@@ -1,5 +1,5 @@
 <?php
-require_once '/modelos/conexion.php';
+require_once '../conexion.php';
 if($_POST['usuario']==null || $_POST['psswrd']==null){
     header("Location:logeo.php");
 }else{
