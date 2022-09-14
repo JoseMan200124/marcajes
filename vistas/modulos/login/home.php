@@ -6,6 +6,10 @@ if($_POST['usuario']==null || $_POST['psswrd']==null){
     $user=$_POST['usuario'];
     $password=$_POST['psswrd'];
 }
+$regexp = '/^[a-z0-9]+$/i';
+
+$resultado = preg_match($regexp,$entrada);
+
 $sql="SELECT * FROM dbo.Usuario WHERE Usuario='$user' AND PasswordU='$password'";
 $res=sqlsrv_query($con,$sql);
 //variables usuario
