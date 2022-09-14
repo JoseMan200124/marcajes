@@ -1,6 +1,6 @@
 <?php
 require_once 'datos.php';
-include '../includes/header.php';?>
+?>
         <main class="main">
         <div class="contenedor">
             <div class="contenedor__secundario">
@@ -35,5 +35,3 @@ include '../includes/header.php';?>
                 </div>
                 </div><!--DIV DE CONTENEDOR FIN-->
         </main>
-        <?php
-        include '../includes/footer.php';

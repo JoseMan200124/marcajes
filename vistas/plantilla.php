@@ -45,7 +45,26 @@ $url = ruta::ctrRuta();
             include "modulos/g302.php";
             $inicio = false;
         }
-        
+        else if($ruta == "g303"){
+            include "modulos/g303.php";
+            $inicio = false;
+        }
+        else if($ruta == "m315"){
+            include "modulos/m315.php";
+            $inicio = false;
+        }
+        else if($ruta == "m316"){
+            include "modulos/m316.php";
+            $inicio = false;
+        }
+        else if($ruta == "t203"){
+            include "modulos/t203.php";
+            $inicio = false;
+        }
+        else if($ruta == "t213"){
+            include "modulos/t213.php";
+            $inicio = false;
+        }
     }
     if ($inicio) {
         include "modulos/welcome.php";

@@ -1,5 +1,6 @@
 <?php
-require_once '../modelos/conexion.php';
+
+require_once '/modelos/conexion.php';
 $carnet=$_POST['carnet'];
 $laboratorio=$_POST['laboratorio'];
 if (strlen($carnet)<7 ) {

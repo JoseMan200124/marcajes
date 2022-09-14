@@ -13,7 +13,7 @@
                     Ingresa tu carnet
                 </h3>
             </div>
-                <form id="formulario__carnet" method="POST" action="datos.php">
+                <form id="formulario__carnet" method="POST" action="vistas/modulos/datos.php">
                     <input type="number" id="carnet__input" placeholder="Ingresa tu Carnet Aqui" name="carnet" required>
                     <input type="submit" value="Verificar" class="boton__enviar">  	
                     <input type="hidden" name="laboratorio" value="G-301">
